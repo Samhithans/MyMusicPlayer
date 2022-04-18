@@ -18,13 +18,49 @@ nav ul{
     background-color:lightcoral;
 
 }
+nav ul li{
+    padding: 0 12px;
+}
 .brand img{
     width: 50px;
     height: 50px;
+    padding: 0 8px;
 }
 .brand{
     display: flex;
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
+}
+.container{
+    font-family: 'Varela Round', sans-serif;
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.icons{
+    margin-bottom: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
 }
