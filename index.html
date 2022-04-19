@@ -19,11 +19,19 @@
     <div class="container">
        
         <div class="SongList">
-            <h3>My songs</h3>
-            <div>
+            <h2>My songs</h2>
+            <div class="songitemcontainer">
                 <div class="songItem">
-                   
+                   <img src="cover1.png" alt="1">
+                   <span>Om Shanti Om</span>
+                   <span class="songlistplay"><span class="timestamp">00:34 <i class="far fa-play-circle"></i></span></span>
                 </div>
+                <div class="songItem">
+                    <img src="cover2.png" alt="1">
+                    <span>Silver</span>
+                    <span class="songlistplay"><span class="timestamp">00:43 <i class="far fa-play-circle"></i></span></span>
+                 </div>
+                 
             </div>
         </div>
         <div class="SongBanner">
@@ -31,14 +39,14 @@
         </div>
     </div>
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
             <i class="far fa-3x fa-solid fa-backward-step"></i>
-            <i class="far fa-3x fa-play-circle"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
             <i class="far fa-3x fa-solid fa-forward-step"></i>
-            
-
-
+        </div>
+        <div class="songInfo">
+            <img src="sound.gif" width="40px" alt="" id="gif"> Om Shanti Om
         </div>
     </div>
     <script src="https://kit.fontawesome.com/ec53f2f5ba.js" crossorigin="anonymous"></script>"></script>
